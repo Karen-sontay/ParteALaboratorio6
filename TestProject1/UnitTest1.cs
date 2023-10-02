@@ -9,7 +9,7 @@ namespace TestProject1
     public class UnitTest1
     {
         [Fact]
-        public void CalculadoraEsperoObtenerLaSumaCorrecta()
+        public void Calculadora_Suma_ObtenerResultadoCorrecto()
         {
             //Arr
             int numero1 = 5;
@@ -25,7 +25,7 @@ namespace TestProject1
         }
 
         [Fact]
-        public void CalculadoraEsperoObtenerLaMultiplicacionCorrecta()
+        public void Calculadora_Multiplicacion_ObtenerResultadoCorrecto()
         {
             //Arr
             int numero1 = 5;
@@ -41,7 +41,7 @@ namespace TestProject1
         }
 
         [Fact]
-        public void CalculadoraEsperoObtenerLaRestaCorrecta()
+        public void Calculadora_Resta_ObtenerResultadoCorrecto()
         {
             //Arr
             int numero1 = 7;
@@ -58,7 +58,7 @@ namespace TestProject1
 
 
         [Fact]
-        public void CalculadoraEsperoObtenerLaDivisionCorrecta()
+        public void Calculadora_Division_ObtenerResultadoCorrecto()
         {
             //Arr
             int numero1 = 16;
@@ -74,7 +74,7 @@ namespace TestProject1
         }
 
         [Fact]
-        public void CalculadoraEsperoObtenerModCorrecto()
+        public void Calculadora_Mod_ObtenerResultadoCorrecto()
         {
             //Arr
             int numero1 = 5;
